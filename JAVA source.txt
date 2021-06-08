@@ -1,0 +1,1277 @@
+
+Java Source Code
+
+
+
+
+
+Hour 1
+
+
+
+
+Example 1.1
+public class Hi
+{
+   public static void main (String [ ] args)
+   {
+      System.out.print("Hello World");
+   }
+}
+
+
+
+
+Example 1.2
+
+package newPackage;
+
+public class HelloWorld {
+
+public static void main (String[] args){
+
+System.out.print("Hello World!");
+	
+} 
+}
+
+
+
+
+Example 1.3
+System.out.println ("Hello World");   // show "Hello World"
+/*
+ System.out.println( ) is a Java output command, meaning display or print.
+
+*/
+
+
+
+
+Example 1.4
+System.out.print( "1 " ); 
+System.out.print( "2 " );
+System.out.print( "3"  );
+
+
+
+
+Example 1.5
+public class Hi{
+public static void main ( String [ ] args ){    
+System.out.print("  \" Hello World  \"  "); 
+}
+}
+
+
+
+
+Example 1.6
+const        continue
+
+
+
+Example 1.7
+"Very Good"
+'S'
+168
+8f
+true
+
+
+
+
+Example 1.8
+public static void main ( String [ ] args ) {
+String mystring = "Hello World";
+char  mychar = 'm';
+int myinteger = 168168;
+double myflt = 28.98;
+boolean mybool = true;
+}
+
+
+
+
+Example 1.9
+public class TryClass{
+public static void main (String [ ] args){
+int sum = 100 + 200;
+String str = "We love" + "Java";
+int incre = 10;  incre = ++incre;
+System.out.println ( sum );   // Output:  300
+System.out.println ( str );   //  Output:  We love Java.
+System.out.println ( incre );  // Output:  11
+}
+}
+
+
+
+
+Example 1.10
+public class TryClass{
+public static void main (String [ ] args){
+boolean x=true;  boolean y=false;
+boolean a, b, c;
+a= x && y;   System.out.print (a);   // output: false
+b=x || y;   System.out.print (b);   // output: true
+c=! x;   System.out.print (c);   // output:  false
+}
+}
+
+
+
+
+
+Example 1.11
+int x=200; int y=100;
+x+=y; System.out.print(x);
+x-=y; System.out.print(x);
+x/=y; System.out.print(x);
+x%=y; System.out.print(x);
+
+
+
+
+Example 1.12
+int x=200; int y=100; 
+boolean result1=(x>y); System.out.print(result1);
+boolean result2=(x<=y); System.out.print(result2);
+boolean result3=(x!=y ); System.out.print(result3);
+
+
+
+
+Example 1.13
+int a=100; int b=200;
+String result1 = (a<b) ? "apple" : "banana";
+System.out.print ( result1);
+(Output:  apple)
+
+
+
+
+
+Example 1.14
+int a=100; int b=200;
+String result2 = (a>b) ? "apple" : "banana";
+System.out.print ( result2 );
+(Output:  banana)
+
+
+
+
+Hour 2
+
+
+
+
+
+Example 2.1
+public class TryClass{
+public static void main (String [ ] args){
+int a=200; 
+int b=100;
+if (a>b) {
+System.out.print ( "a is greater than b.");
+}}}
+
+
+
+
+ 
+
+Example 2.2
+public class TryClass{
+public static void main (String [ ] args){
+int a=100; int b=200;
+if (a>b){
+System.out.print ( "a is greater than b.");
+}
+else {
+System.out.print ( "a is less than b");
+}}} 
+
+
+
+
+
+Example 2.3
+public class TryClass{
+public static void main (String [ ] args){
+int number=20;
+switch ( number ) {
+case 10 : System.out.print ("Running case 10");  break;
+case 20 : System.out.print ("Running case 20");  break;
+case 30 : System.out.print ("Running case 30");  break;
+default :  System.out.print ("Running default code");  break;  
+}}} 
+
+
+
+
+
+Example 2.4
+public class TryClass{
+public static void main (String [ ] args){
+int x;
+for (x = 0; x <= 5; x++) {
+System.out.print( x );
+}}}
+
+
+
+
+Example 2.5
+public class TryClass{
+public static void main (String [ ] args){
+int counter=0;
+while (counter < 8){
+System.out.print  ("&");
+counter++;
+}}} 
+
+
+
+
+Example 2.6
+public class TryClass{
+public static void main (String [ ] args){
+int counter=0;
+do {
+System.out.print ( "@");
+counter++;
+} while (counter<8);
+}} 
+
+
+
+
+Example 2.7
+public class TryClass{
+public static void main (String [ ] args){
+int num=0;
+while (num<10){
+if (num==5)  break;
+num++;
+}
+System.out.print( num );
+}} 
+
+
+
+
+
+Example 2.8
+public class TryClass{
+public static void main (String [ ] args){
+int num=0;
+while (num<10){
+num++;
+if (num==5)  continue;
+System.out.print( num );
+}}}
+
+
+
+
+Example 2.9
+public class TryClass{
+public static void main (String [ ] args){
+int num=10;
+if( num ){    // error
+System.out.print ("No good");
+}
+while ( num ){     // error
+System.out.print ("No good");
+}}} 
+
+
+
+
+
+Hour 3
+
+
+
+
+
+Example 3.1
+int myarray[ ] = { 10,20,30,40 };
+
+
+
+
+Example 3.2
+int myArray[ ] = new int [3];
+myArray [0] = 100;
+myArray [1] = 200;
+myArray [2] = 300;
+
+
+
+
+Example 3.3
+public class TryClass{
+public static void main (String [ ] args){
+int arr[ ] = {10,20,30};
+int num = arr.length;
+System.out.print ( num );
+}} 
+
+
+
+
+Example 3.4
+int arr[ ] = {10, 20, 30, 40, 50};
+int value = arr[2];
+System.out.println ( value );
+( Output: 30)
+
+
+
+
+
+Example 3.5
+ int num[ ] = new int [5];
+num[2] = 800;
+System.out.println ( num[2]);
+( Output:  800)
+
+
+
+
+Example 3.6
+package tryPackage;
+import java.util.Arrays;
+public class TryClass{
+public static void main (String [ ] args){
+String myarray[ ] = { "Cat", "Apple", "Dog", "Boy"};
+Arrays.sort (myarray);
+for(int num=0; num<myarray.length; num++){
+System.out.print (myarray[num]+" ");
+}}}
+
+
+
+
+Example 3.7
+float num = 10.2f;
+System.out.print( Math.round(num) );
+
+
+
+
+Example 3.8
+public class TryClass{
+public static void main (String [ ] args){
+float num = 9.5f;
+System.out.println( "Ceiling number is "+Math.ceil( num ) );
+System.out.println( "Flooring number is "+Math.floor( num ) );
+}} 
+
+
+
+
+Example 3.9
+public class TryClass{
+public static void main (String [ ] args){
+int x = 100;
+int y = 200;
+System.out.println("Greater number is "+Math.max(x, y) );
+System.out.println("Less number is "+Math.min(x, y) );
+}}
+
+
+
+
+Example 3.10
+public class TryClass{
+public static void main (String [ ] args){
+int num = 4;
+System.out.println("Square number is "+Math.pow(num,2) );
+System.out.println("Square root is "+Math.sqrt(num) );
+}}
+
+
+
+
+Example 3.11
+public class TryClass{
+public static void main (String [ ] args){
+double pi = Math.PI;
+double ran = Math.random( );
+System.out.println("The PI value is" + pi);
+System.out.println("The random number is" + ran);
+}} 
+
+
+
+
+
+
+Hour 4
+
+
+
+
+
+Example 4.1
+public class TryClass{
+public static void main (String [ ] args){
+String str = "This is a string";
+int length = str.length( );
+System.out.println( "The size of string is " + length);
+}} 
+
+
+
+
+Example 4.2
+String str1 = "Very";  String str2 = "Good";
+System.out.print( str1 + str2);
+( Output: Very Good )
+
+String str1 = "Very";  String str2 = "Good";
+System.out.print( str1.concat (str2));
+( Output: Very Good )
+
+
+
+
+
+Example 4.3
+public class TryClass{
+public static void main (String [ ] args){
+String str1="Good", str2="Good";
+System.out.print(str1.equals (str2));
+System.out.print("Good".equals ("Good"));
+}} 
+
+
+
+
+Example 4.4
+public class TryClass{
+public static void main(String args[]) {
+String str = "Very Good";
+char result = str.charAt(5);
+System.out.println( result );
+}}
+
+
+
+
+Example 4.5
+public class TryClass{
+public static void main(String args[ ]) { 
+String str = "Very Good";
+System.out.println(str.indexOf( "y" ));
+}}
+
+
+
+
+Example 4.6
+public class TryClass{
+public static void main(String args[ ]) { 
+String Str = "Very Good";
+System.out.println(Str.substring(5, 7) );
+}}
+
+
+
+
+Example 4.7
+public class TryClass{
+public static void main(String args[ ]){
+String Str = "Very Good"; System.out.println(Str.toUpperCase( ) );
+System.out.println(Str.toLowerCase( ) );
+}}
+
+
+
+
+Example 4.8
+public class TryClass{
+public static void main(String args[ ]){
+String Str = "Very Good";
+System.out.println( Str.replace("Good", "Well") );
+}} 
+
+
+
+
+Example 4.9
+public class TryClass{
+public static void main(String args[ ]){
+int num = 169;  
+String str = "       Good        ";   // Note that spaces.
+String str1 = Integer.toString( num );
+String str2 = str.trim( );
+System.out.println( str1+" is a String" );
+System.out.println( str2+"is trimmed" ); 
+}} 
+
+
+
+
+Example 4.10
+StringBuffer sb = new StringBuffer ( "abcde" );
+sb.insert ( 2, "123");    // Output:  abc123de
+sb.append ( "456");    // Output:  abc123de456
+sb.reverse ( );    // Output:  654ed321cba
+
+
+
+
+
+Hour 5
+
+
+
+
+
+Example 5.1
+public class TryClass{
+public static void main(String args[ ]){
+myMethod( );  }
+public static void myMethod ( ) {
+System.out.print( "This is a method" );
+}} 
+
+
+
+
+Example 5.2
+public class TryClass{
+public static void main ( String [ ] args ) { 
+myMethod( "ABC" );
+}
+public static void myMethod ( String argument ) {
+System.out.print( "This is a method " + argument );
+}} 
+
+
+
+
+Example 5.3
+public class TryClass{
+public  static void main ( String [ ] args ) { 
+int num=10;
+System.out.print ("The number is  "+myMethod( num ));
+}
+static int myMethod ( int arg ) {
+return ++arg;
+}}
+
+
+
+
+Example 5.4
+public class Color {
+String c1, c2;
+void brightness ( ) {  System.out.print ("blue"); }
+}
+
+
+
+
+Example 5.5
+obj = new Color(  );
+obj.c1= "yellow";   obj.c2="purple";
+obj.brightness ( );   // brightness( ){ } in previous page.
+
+
+
+
+Example 5.6
+public class Color {
+String c1, c2;
+Color ( ) {  c1="yellow";  c2="purple"; }  // constructor
+}
+
+
+
+
+
+Example 5.7
+package correctPackage;
+
+class Color{  String x,y;   // declare two variables
+Color ( String a, String b) { x=a; y=b; } 
+Color ( ) {  x="yellow ";  y="purple ";}  
+
+public static void main (String args[ ]) {
+Color obj1=new Color("green ", "orange ");  
+Color obj2=new Color(  );   
+System.out.println(obj1.x +  obj1.y);
+System.out.println(obj2.x +  obj2.y);
+}
+}
+
+
+
+
+
+Example 5.8
+package correctPackage;
+class MyClass {
+int num;
+void test(int num) {  
+ this.num=num; 
+ System.out.println( this.num );
+};
+public static void main(String[ ] args) {
+ MyClass obj = new MyClass( );
+ obj.test(10);
+}
+}
+
+
+
+
+Example 5.9
+class MyClass { 
+int x, y;
+MyClass ( ) {
+this ( 100, 200 );
+ }
+MyClass ( int a, int b)
+x=a;  y=b;
+}
+
+
+
+
+Example 5.10
+class point {
+int x= 100, y = 200;   //  instance variable
+void test( ){ 
+int x = 1, y = 2;     //  local variable
+}
+}
+
+
+
+
+
+
+Hour 6
+
+
+
+
+
+Example 6.1
+class parent_class{
+// define variable;
+// define method;
+}
+class sub_class extends parent_class{ 
+// define variable;
+// define method;
+}
+
+
+
+
+Example 6.2
+class super_class{
+super_class (int x, int y){   // constructor 
+this.x=x;  this .y=y;
+}
+}
+class sub_class extends super_class{ 
+sub_class(int x, int y){   // constructor
+super ( x,y );
+}
+}
+
+
+
+
+Example 6.3
+class Super_class{
+int test( int num ) { return num; }
+}
+class Sub_class extends Super_class{ 
+int test( int num ) { return 100 + num; }
+}
+public class OverridingClass {
+public static void main (String args[ ]){
+Sub_class obj=new Sub_class( );
+System.out.print( obj.test( 200 ));
+}}
+
+
+
+
+Example 6.4 (overloading)
+class Color{  String x,y;   // declare two variables
+Color ( String a, String b) { x=a; y=b; } 
+Color ( ) {  x="yellow";  y="purple";}  
+}
+
+
+
+
+
+Example 6.5 (overriding)
+class super_class{
+int test( int num ) { return num; }
+}
+class sub_class extends super_class{ 
+int test( int num ) { return 100 + num; }
+}
+
+
+
+
+Example 6.6
+class MyClass {
+static int count=100;
+public static void main (String args[ ]){
+System.out.print(  MyClass.count );
+}
+}
+
+
+
+
+
+Example 6.7
+class MyClass {
+static int count( ){ return 100 ;}
+public static void main (String args[ ]){
+System.out.print(  MyClass.count( ) );
+}}
+
+
+
+
+Example 6.8
+class MyClass{
+final int x =100;
+static void test(  ){ x = 200;}   // error
+public static void main (String args[ ]){
+System.out.print(  MyClass.test( ) );
+}
+}
+
+
+
+
+Example 6.9
+class animal{
+final void test ( ){ 
+System.out.print("animal");
+}
+}
+class dog extends animal {
+void test ( ){    // error
+System.out.print("dog");
+}
+}
+
+
+
+
+Example 6.10
+final class animal {
+//  define some variables;
+//  define some method;
+}
+class elephant extends animal {   // error
+//  define some variables;
+//  define some method;
+}
+
+
+
+Example 6.11
+class Animal{
+void cry( ){
+System.out.println("crying......");;
+}
+}
+class Dog extends Animal{
+void cry( ){
+System.out.println("Wow, Wow......");
+}
+}
+class Cat extends Animal{
+void cry( ){
+System.out.println("Meow, Meow......");
+}
+}
+class PolymorphismDemo{
+public static void main(String args[ ]){
+Animal animalVar;
+animalVar = new Dog( );
+animalVar.cry( );
+animalVar = new Cat( );
+animalVar.cry( );
+}
+}
+
+
+
+
+Example 6.12  (in file1)
+package myPackage;    
+class MyClass1 {бн}
+class MyClass2 {бн}
+
+
+
+
+
+
+Example 6.13 (in file2)
+package myPackage;    
+import myPackage.*;  
+
+
+
+
+
+Example 6.14
+(In Drive.java)
+package myPackage;
+public class Drive{
+public void getDistance (int mph, float time){
+System.out.println("SPEED:" + mph + " MILES/HOUR");
+System.out.println("TIME:" + time + " HOURS");
+System.out.println("DISTANCE:" + time*mph + " MILES");
+}
+}
+
+
+(In TestDrive.java)
+package myPackage;
+import myPackage.Drive;
+public class TestDrive{
+  public static void main (String args[ ]) {
+	Drive myDrive = new Drive( );
+	myDrive.getDistance(120, 5);
+}
+}
+
+
+
+
+
+Hour 7
+
+
+
+
+Example 7.1
+abstract class books{   //define a abstract class
+abstract int read( );   //define a abstract method
+}
+class eBooks extends books{   //extend the parent class
+int read ( ){ return 100; }  //implement abstract method
+}
+
+
+
+
+Example 7.2
+There two files in the same package as following:
+
+(In file1 of myPackage) 
+package myPackage;
+public class ParentClass{   
+int num=100;   // This is a default member.
+}
+
+ (In file2 of myPackage)
+package myPackage;
+public class SubClass extends ParentClass{
+public static void main(String[] args) {
+SubClass s=new SubClass( );
+System.out.print ( s.num );  
+}
+}  
+
+
+
+
+Example 7.3
+There two files in the different package as following:
+
+(In file1 of MyPackage)
+package myPackage;
+public class ParentClass{   
+public int num=100;   // This is a public member.
+}
+ 
+(In file2 of NewPackage)
+package newPackage;
+import myPackage.ParentClass;
+public class SubClass extends ParentClass{
+public static void main(String[] args) {
+SubClass s=new SubClass( );
+System.out.print ( s.num );  
+}
+}  
+
+
+
+
+Example 7.4
+class MyClass { 
+private MyClass( ){  // private constructor
+System.out.print("OK!");
+}}
+public class NewClass{ 
+public static void main ( String args [ ] ) {
+MyClass mc=new MyClass ( );   // error
+}}
+
+
+
+
+Example 7.5
+There two files in the different package as following:
+
+(In file1 of MyPackage)
+package myPackage;
+public class ParentClass{   
+protected int num=100;   // protected member.
+}
+
+(In file2 of NewPackage)
+package newPackage;
+import myPackage.ParentClass;
+public class SubClass extends ParentClass{
+public static void main(String[] args) {
+SubClass s=new SubClass( );
+System.out.print ( s.num );  
+}
+} 
+
+
+
+
+Example 7.6
+interface books {   // define an interface
+int booknumber( );    //  define an empty method
+}
+class eBooks implement books {  //  implement interface
+public int booknumber ( ) {  // implement method
+ return 100;  
+}  }
+
+
+
+
+Example 7.7
+class Book {  //  create a class
+public String title;  
+public int number;
+public Book ( ) {   //  define a constructor
+title = "Learning Java ";  // initialization
+number = 100;  // initialization
+}}
+public class Publisher {   // create main class
+public static void main ( String args [ ]) { //main method
+Book eBook = new Book ( );   // create an object
+System.out.print( eBook.title + eBook.number); 
+}}
+
+
+
+
+Example 7.8
+class AnotherClass{    // define another class
+public static void AnotherMethod( ){ // another method
+System.out.print ( "Very Good" ); }
+}
+public class MainClass{   //define main class
+public static void main (String args [ ]){ // main method
+AnotherClass.AnotherMethod( ); //call another method
+}
+}
+
+
+
+
+
+Hour 8
+
+
+
+
+
+Example 8.1
+public class ExceptionSample {
+public static void main (String args [ ]) {
+int a=10, b=0, c;
+c = a/b;   // error
+System.out.print ( c );
+}
+}
+
+
+
+
+Example 8.2
+public class ExceptionSample {
+public static void main (String args [ ]) {
+try {
+int a=10, b=0, c;
+c = a/b;   // error
+System.out.print ( c );
+}
+catch ( ArithmeticException e) {
+System.out.print (" Divided By Zero ");
+}}} 
+
+
+
+
+Example 8.3
+public class ExceptionSample {
+public static void main (String args [ ]) {
+try {
+int a[ ] = new int [10];
+a[10]=100;  // error
+System.out.print ( a[10] );
+}
+catch ( ArrayIndexOutOfBoundsException e) {
+System.out.print (" Array index out of bounds ");
+}}} 
+
+
+
+
+Example 8.4
+public class ExceptionSample {
+public static void main (String args [ ]) {
+try {
+char ch = "ABC".charAt(100);  // error
+System.out.print ( ch );
+}
+catch (IndexOutOfBoundsException e) {
+System.out.print ( "Character index out of bounds" );
+}}} 
+
+
+
+
+
+Example 8.5
+public class ExceptionSample {
+public static void main (String args [ ]) {
+try {
+char ch = "ABC".charAt(100);  // error
+}
+catch (IndexOutOfBoundsException e) {
+System.out.print ( "Character index out of bounds. " );
+}     //  Output: Character index out of bounds
+finally {  System.out.print("The End"); }
+}} 
+ 
+
+
+
+
+Example 8.6
+public class ExceptionSample {
+public static void main (String args [ ]) {
+try {
+int a[ ] = new int[10];
+if ( a[10] >0 ) throw new ArrayIndexOutOfBoundsException("Error");
+}    // the last element is a[9], without a[10].
+catch ( ArrayIndexOutOfBoundsException e) {
+System.out.print ("Error index:"+e.getMessage( ));
+}}} 
+
+
+
+
+Example 8.7
+public class ExceptionSample {
+public static void main (String args [ ]) {
+try {
+int b = 0;
+calculate( b );
+}
+catch( Exception e) {
+System.out.println("The error is"+ e.getMessage( ));
+}}
+public static int calculate( int num) throws ArithmeticException {
+int a=10, c;
+c = a/num;   // num is 0, error
+return c;
+}
+}  
+
+
+
+
+Example 8.8
+File f = new File ( MyFile );
+if (f.exists( )) {
+System.out.println("Exists:"+ f.exists());    //Exists: true
+System.out.println("Can read:"+ f.canRead());  //Can read: true
+System.out.println("Can write:"+ f.canWrite());  //Can write: false
+System.out.println("Is file:"+ f.isFile());  // Is file: true
+}
+
+
+
+
+Example 8.9  
+ (Prepare an empty file "MyFile.txt" in the same project folder with the following Java file OutputFile.java)
+
+package myPackage;
+import java.io.*;
+public class OutputFile {
+public static void main(String[] args) {
+char ch;
+int number;
+try{
+FileOutputStream fout = new FileOutputStream("MyFile.txt");
+System.out.println("Please input some words, finish with # key and enter:");
+while((ch = (char)System.in.read())!= '#')  //read inputed characters from keyboard
+fout.write(ch);  // write characters to file
+fout.close();
+}
+catch(FileNotFoundException e){			
+System.err.println(e);	
+}
+catch(IOException e){
+System.err.println(e);
+}
+}
+}
+
+
+
+
+
+Example 8.10    
+ (Given MyFile.txt content is "C++ is very good!" in the same project folder with following Java file InputFile.java)
+
+package myPackage;
+import java.io.*;
+public class InputFile {
+public static void main(String[] args) {
+char ch;
+int number;
+try{
+FileInputStream fin = new FileInputStream("MyFile.txt");
+while((number=fin.read())!= -1)  // read file
+System.out.print((char)number);  // change to characters
+fin.close();
+}
+catch(FileNotFoundException e){			
+System.err.println(e);	
+}
+catch(IOException e){
+System.err.println(e);
+}}}
+
+
+
+
+Example 8.11
+public class ThreadDemo extends Thread{
+public void run( ){
+for(int i = 0; i<3; i++){
+System.out.println("Thread!");
+}}
+public static void main(String[ ] args){
+ThreadDemo myThread = new ThreadDemo( );
+myThread.start( );
+}}
+
+
+
+
+Example 8.12
+class ThreadDemo implements Runnable{
+public void run( ){
+for(int i = 0; i<3; i++){
+System.out.println("Thread!");}
+}
+public static void main(String[ ] args){
+Thread myThread = new Thread(new ThreadDemo( ));
+myThread.start( );  
+}}
+
+
+
+
+Example 8.13
+class ThreadDemo extends Thread{
+public ThreadDemo(String threadName){
+super(threadName);  // initialize thread name
+}
+public void run( ){
+for(int i = 0; i<2; i++){
+System.out.println(getName( ) + " running!");
+}}}
+public class UseThread{
+public static void main(String[ ] args){
+ThreadDemo myThread1 = new ThreadDemo("1st thread");
+ThreadDemo myThread2 = new ThreadDemo("2nd thread");
+ThreadDemo myThread3 = new ThreadDemo("3rd thread");
+myThread1.start();
+myThread2.start();
+myThread3.start();
+}}
+
+
+
+
+Example 8.14
+class ThreadDemo implements Runnable{
+public void run( ){
+бнбн
+wait( );
+бнбн
+}
+}
+Class TextThread{
+public static void main(String args[ ]){
+Thread myThread = new Thread(newThreadDemo( ));
+myThread.start( );
+Thread.sleep(1000);
+notify( );
+Thread.yield( );
+}
+}
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

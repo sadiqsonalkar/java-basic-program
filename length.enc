@@ -1,0 +1,36 @@
+class length
+	{
+		double feet, inches;
+		public void display(){
+		
+		System.out.println("feet:"+feet);
+		System.out.println("inches:"+inches);
+		}
+	
+		public length(){
+		feet=0;
+		inches=0;
+		}
+		
+		public length(double f){
+		feet =f;
+		inches=f*12;
+		}
+		
+
+		public length(int f , int i ){
+		feet=f;
+		inches=i;
+		}
+		
+		public static void main(String args[]) {
+		
+		length l1 =new length();
+		l1.display();
+		length l2 =new length(55);
+		l2.display();
+		length l3 =new length(5,26);
+		l3.display();
+		
+	}
+}

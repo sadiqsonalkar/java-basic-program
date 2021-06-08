@@ -1,0 +1,32 @@
+class time
+	{
+		int hour, minute , second;
+		public void display(){
+		
+		System.out.println(hour+":"+minute+":"+second);
+		}
+	
+		public time(){
+		hour=0;
+		minute=0;
+		second=0;
+		}
+		
+		public time(int sec){
+		hour=hour;
+		minute=hour;
+		second= sec % 60;
+        	hour= sec / 60;
+		minute= hour % 60;
+        	hour = hour / 60;
+		
+		}
+		public static void main(String args[]) {
+		
+		time t1 =new time();
+		t1.display();
+		time t2 =new time(89399);
+		t2.display();
+		
+	}
+}
