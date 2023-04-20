@@ -93,6 +93,7 @@ boolean mybool = true;
 
 
 
+
 Example 1.9
 public class TryClass{
 public static void main (String [ ] args){
@@ -820,8 +821,8 @@ animalVar.cry( );
 
 Example 6.12  (in file1)
 package myPackage;    
-class MyClass1 {¡­}
-class MyClass2 {¡­}
+class MyClass1 {Â¡Â­}
+class MyClass2 {Â¡Â­}
 
 
 
@@ -1232,9 +1233,9 @@ myThread3.start();
 Example 8.14
 class ThreadDemo implements Runnable{
 public void run( ){
-¡­¡­
+Â¡Â­Â¡Â­
 wait( );
-¡­¡­
+Â¡Â­Â¡Â­
 }
 }
 Class TextThread{
