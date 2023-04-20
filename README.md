@@ -5,32 +5,32 @@ Basic program of JAVA
 3. Factorial Program
 4. Hash Program
 5. Java Source- 
-    Hello World
-    String
-    Char
-    Integer
-    Float
-    Boolean
-    Greater than
-    Less than
-    Switch Case
-    For Loop
-    While Loop
-    Do - While Loop
-    IF condition
-    If - else 
-    Arrays
-    Round Function
-    Ceil Function
-    Floor Function
-    Maximum
-    Minimum
-    Raise To
-    Square root
-    StringBuffer
-    Abstraction Class & Method
-    Super Class
-    Sub Class
+    Hello World,
+    String,
+    Char,
+    Integer,
+    Float,
+    Boolean,
+    Greater than,
+    Less than,
+    Switch Case,
+    For Loop,
+    While Loop,
+    Do - While Loop,
+    IF condition,
+    If - else ,
+    Arrays,
+    Round Function,
+    Ceil Function,
+    Floor Function,
+    Maximum,
+    Minimum,
+    Raise To,
+    Square root,
+    StringBuffer,
+    Abstraction Class & Method,
+    Super Class,
+    Sub Class,
     Exception Handling
     
 6. Length Program
